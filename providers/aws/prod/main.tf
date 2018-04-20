@@ -1,6 +1,5 @@
 variable "profile"  {}
 variable "region" {}
-variable "credentials" { default = "~/.aws/credentials" }
 
 provider "aws" {
   profile = "${var.aws_profile}"
@@ -8,3 +7,7 @@ provider "aws" {
 }
 
 # Add modules below
+
+module "AMI-cleanup" {
+  source = "../../modules/aws/AMI-Cleanup"
+}
