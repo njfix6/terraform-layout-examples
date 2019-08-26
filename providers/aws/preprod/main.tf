@@ -9,5 +9,5 @@ provider "aws" {
 # Add modules below
 
 module "AMI-cleanup" {
-  source = "../../modules/aws/AMI-Cleanup"
+  source = "../../../modules/aws/AMI-Cleanup/"
 }

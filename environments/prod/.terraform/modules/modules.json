@@ -1,0 +1,1 @@
+{"Modules":[{"Source":"../../providers/aws/prod","Key":"1.prod-us-west-2;../../providers/aws/prod","Version":"","Dir":".terraform/modules/814ed86269a7acdaad7f26322c7bcc38","Root":""},{"Source":"../../providers/aws/prod","Key":"1.prod-us-east-2;../../providers/aws/prod","Version":"","Dir":".terraform/modules/cc81df62c75cef2d828beffb2f481785","Root":""}]}
